@@ -124,11 +124,11 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ### Authors
-
-| Alston Dias                         | Amitkumar Ghatwal                   |
-| ----------------------------------- | ----------------------------------- |
-| ![cat](https://avatars.githubusercontent.com/u/144100883?v=4) | ![dog](https://avatars.githubusercontent.com/u/144095394?v=4) |
-
+<p float="left">
+  <img src="https://github.com/Alston-Dias-PSL" width="33%" />
+  <img src="https://bobbyhadz.com/images/blog/what-aws-cdk-bootstrap-do/thumbnail.webp" width="33%" />
+  <img src="https://bobbyhadz.com/images/blog/aws-cdk-subnet-tags/thumbnail.webp" width="33%" />
+</p>
 
 - **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
 
