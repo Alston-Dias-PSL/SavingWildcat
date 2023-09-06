@@ -124,9 +124,12 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ### Authors
-[Alston Dias](https://github.com/Alston-Dias-PSL)  [Amitkumar Ghatwal](https://github.com/amitkumar-ghatwal) [Anup kodlekere](https://github.com/kodlean) [Abhishek Dighe](https://github.com/abhishekdighePersIbm1) [Adilhusain Shaikh](https://github.com/adil-ps)
 
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
+- **Alston Dias** - [Alston-Dias-PSL](https://github.com/Alston-Dias-PSL)
+- **Amitkumar Ghatwal** - [amitkumar-ghatwal](https://github.com/amitkumar-ghatwal)
+- **Anup kodlekere** - [kodlean](https://github.com/kodlean)
+- **Abhishek Dighe** - [abhishekdighePersIbm1](https://github.com/abhishekdighePersIbm1)
+- **Adilhusain Shaikh** - [adil-ps](https://github.com/adil-ps)
 
 ### License
 
