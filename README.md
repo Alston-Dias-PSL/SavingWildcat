@@ -127,7 +127,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 <a href="https://github.com/Alston-Dias-PSL">
   <p>Alston Dias</p>
-  <img src="https://avatars.githubusercontent.com/u/144100883?v=4" />
+  <img src="https://avatars.githubusercontent.com/u/144100883?v=4" width="50" height="50"/>
 </a>
 
 - **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
