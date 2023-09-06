@@ -125,17 +125,10 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ### Authors
 
-<div float=left>
-  <a href="https://github.com/Alston-Dias-PSL">
-    <p>Alston Dias</p>
-    <img src="https://avatars.githubusercontent.com/u/144100883?v=4" width="50" height="50"/>
-  </a>
+| Alston Dias                         | Amitkumar Ghatwal                   |
+| ----------------------------------- | ----------------------------------- |
+| ![cat](https://avatars.githubusercontent.com/u/144100883?v=4) | ![dog](https://avatars.githubusercontent.com/u/144095394?v=4) |
 
-  <a href="https://github.com/amitkumar-ghatwal">
-    <p>Alston Dias</p>
-    <img src="https://avatars.githubusercontent.com/u/144095394?v=4" width="50" height="50"/>
-  </a>
-<div>
 
 - **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
 
