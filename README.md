@@ -125,7 +125,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ### Authors
 
-<a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
+<a href="https://github.com/Alston-Dias-PSL">
+  <p>Alston Dias</p>
   <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
 </a>
 
