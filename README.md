@@ -44,7 +44,12 @@ Aim to get better conservation of wild cats by -
 
 ### How our technology solution can help
 
-REPLACE THIS SENTENCE with a short description of your team's solution, in about 10 words.
+Our solution will hopefully help
+- map animal's routes
+- track health
+- relocation
+- animal-human conflicts
+- allow forest guards to enter sigthings, track changes, etc. 
 
 ### Our idea
 
