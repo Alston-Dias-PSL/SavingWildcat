@@ -1,0 +1,161 @@
+
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:white;
+    background-image:url(../../assets/tiger-background.jpg);
+    background-position: bottom;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    margin-left:-8px;
+    margin-top: -8px;
+    width: 100%;
+    height:calc(100vh);
+  }
+
+  .logo{
+    height: calc(20vh);
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .ButtonDarkMain{
+    width: 500px;
+    height: 55px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 85px;
+  }
+
+  .ButtonDarkAdditonal{
+    width: 500px;
+    height: 55px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 25px;
+  }
+
+  .buttonSignin{
+    width:  500px;
+    height: 50px;
+    top: 0;
+    position: absolute;
+    background: #B46000;
+    border-radius: 12px;
+  }
+
+  .buttonSignup{
+    width:  500px;
+    height: 50px;
+    top: 0;
+    position: absolute;
+    background: white;
+    border-radius: 12px;
+  }
+
+  .signin{
+    width:496px;
+    left: 5px;
+    top: 16px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+
+  .signup{
+    width:496px;
+    left: 5px;
+    top: 16px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+
+  .skipForNow{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: Gilroy;
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+    bottom: 25px;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .logo{
+        height: calc(20vh);
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+
+    .ButtonDarkMain{
+        width: 200px;
+        height: 30px;
+        bottom: 50px;
+    }
+
+    .ButtonDarkAdditonal{
+        width: 200px;
+        height: 30px;
+        bottom: 15px;
+    }
+
+    .buttonSignin{
+        width: 200px;
+        height: 30px;
+    }
+
+    .buttonSignup{
+        width: 200px;
+        height: 30px;
+    }
+
+    .signin{
+        width: 186px;
+        left: 5px;
+        top: 8px;
+        position: absolute;
+        text-align: center;
+        color: white;
+        font-size: 12px;
+        font-family: 'Gilroy';
+        font-weight: 500;
+        word-wrap: break-word;
+      }
+
+      .signup{
+        width: 186px;
+        left: 5px;
+        top: 8px;
+        position: absolute;
+        text-align: center;
+        color: black;
+        font-size: 12px;
+        font-family: 'Gilroy';
+        font-weight: 500;
+        word-wrap: break-word;
+      }
+
+      .skipForNow{
+        bottom: 10px;
+        font-size: 10px;
+      }
+  }
