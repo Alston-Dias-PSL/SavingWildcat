@@ -130,56 +130,22 @@
         
     }
 
-    .ButtonDarkMain{
+    .ButtonSignin{
         width: 200px;
         height: 30px;
         bottom: 50px;
+        font-size: 14px;
     }
 
-    .ButtonDarkAdditonal{
+    .ButtonSignup{
         width: 200px;
         height: 30px;
         bottom: 15px;
+        font-size: 14px;
     }
 
-    .buttonSignin{
-        width: 200px;
-        height: 30px;
-    }
-
-    .buttonSignup{
-        width: 200px;
-        height: 30px;
-    }
-
-    .signin{
-        width: 186px;
-        left: 5px;
-        top: 8px;
-        position: absolute;
-        text-align: center;
-        color: white;
-        font-size: 12px;
-        font-family: 'Gilroy';
-        font-weight: 500;
-        word-wrap: break-word;
-      }
-
-      .signup{
-        width: 186px;
-        left: 5px;
-        top: 8px;
-        position: absolute;
-        text-align: center;
-        color: black;
-        font-size: 12px;
-        font-family: 'Gilroy';
-        font-weight: 500;
-        word-wrap: break-word;
-      }
-
-      .skipForNow{
+    .skipForNow{
         bottom: 10px;
         font-size: 10px;
-      }
+    }
   }
