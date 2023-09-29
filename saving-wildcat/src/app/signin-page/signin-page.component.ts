@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-signin-page',
@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./signin-page.component.css']
 })
 export class SigninPageComponent {
+
+  username !: string
+  password !: string
+
+  ngOnInit():void{}
 
 }
