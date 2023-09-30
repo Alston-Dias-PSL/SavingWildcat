@@ -21,7 +21,7 @@
 
                     <div class="forgotpassword">Forgot Password ?</div>
                     
-                    <button class="signin" value="Sign In" [disabled]="login.invalid">Sign in</button>
+                    <button class="signin" value="Sign In" [disabled]="login.invalid" (click)="onSignIn()">Sign in</button>
                 </div>
             </form>
         </div>

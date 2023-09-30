@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-signin-page',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SigninPageComponent {
 
+  constructor (private router : Router){ }
+
   username !: string
   password !: string
 
   ngOnInit():void{}
+
+  onSignIn(){
+    this.router.navigate(['home'])
+  }
 
 }
