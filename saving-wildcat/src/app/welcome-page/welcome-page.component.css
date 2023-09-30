@@ -133,19 +133,19 @@
     .ButtonSignin{
         width: calc(100vw - 100px);
         height: 30px;
-        bottom: 50px;
+        bottom: 70px;
         font-size: 14px;
     }
 
     .ButtonSignup{
         width: calc(100vw - 100px);
         height: 30px;
-        bottom: 15px;
+        bottom: 30px;
         font-size: 14px;
     }
 
     .skipForNow{
-        bottom: 10px;
+        bottom: 20px;
         font-size: 15px;
     }
   }
