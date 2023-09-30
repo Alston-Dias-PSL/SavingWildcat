@@ -1,7 +1,15 @@
+.mainContainer{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
 .bg {
   background: linear-gradient(165deg, #b46000 12%, #090301 97%);
-  min-height: 100%;
-  min-width: 100%;
+  left: -10px;
+  top: -10px;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
   margin: auto;
   padding: 30px;
@@ -56,7 +64,7 @@
 }
 
 .textBox {
-  width: calc(100vb);
+  width: calc(100vw - 700px);
   height: 100%;
   padding: 15px;
   background: white;
@@ -77,7 +85,7 @@
 }
 
 .signin {
-  width: calc(100vb + 30px);
+  width: calc(100vw - 670px);
   height: 100%;
   text-align: center;
   color: white;
@@ -105,7 +113,7 @@
   height: 100%;
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   
   .hello {
     font-size: 35px;
@@ -150,16 +158,19 @@
 
   .formContainer{
     float: none;
+    margin-top: 50px;
   }
 
   .imgContainer{
     float: none;
+    width: calc(100vw - 130px);
     position: absolute;
-    right: 30%;
+    text-align: center;
+    margin-left: 25px;
   }
 
   .img{
-    height: 250px;
-    width: 250px;
+    height: 260px;
+    width: 260px;
   }
 }

@@ -121,25 +121,24 @@
   }
 
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 850px) {
+    .logoContainer{
+      width: 100%;
+      text-align: center;
+    }
     .logo{
         height: calc(20vh);
-        position: absolute;
-        top: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        
     }
 
     .ButtonSignin{
-        width: 200px;
+        width: calc(100vw - 100px);
         height: 30px;
         bottom: 50px;
         font-size: 14px;
     }
 
     .ButtonSignup{
-        width: 200px;
+        width: calc(100vw - 100px);
         height: 30px;
         bottom: 15px;
         font-size: 14px;
@@ -147,6 +146,6 @@
 
     .skipForNow{
         bottom: 10px;
-        font-size: 10px;
+        font-size: 15px;
     }
   }
