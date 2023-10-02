@@ -10,8 +10,6 @@
     background-repeat: no-repeat;
     position: fixed;
     overflow: hidden;
-    margin-left:-8px;
-    margin-top: -8px;
     min-width: 100%;
     min-height: 100%;
   }
