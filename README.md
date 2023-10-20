@@ -53,9 +53,23 @@ Our solution will hopefully help
 
 ### Our idea
 
-INSTRUCTIONS: Replace this paragraph with a longer description of your solution. In about 500 words, describe your solution in more detail. Include the real-world problem you identified, describe the technological solution you have created, and explain how it’s an improvement over existing solutions. You can supply additional documentation in this source code repository that you link to as well.
+We propose a solution to track information about wildcats' by tying together image recognition with location data. 
+Since a forest is a vast area, scaling it manually is next to impossible. To help with this, we employ multi-level 
+data gathering schemes -- Drones, Foot soldiers, static cams.
 
-More detail is available in our [description document](./docs/DESCRIPTION.md).
+Foot soldiers are part of the wildlife/forest dept and can take images of wildcats whenever spotted. 
+Static cams can be installed in places of high animal traffic -- where wildcats are most expected. This can be near water sources,
+food sources etc.
+Drones to cover remote areas which are out-of-reach from humans. With adequate sensing, the drones should be able to detect and snap
+pictures of wildcats.
+
+
+All these data gathered will be coupled with the location of the wildcat, to better track their areas of activity and monitor them 
+for any abnormal issues. 
+
+The data gathered will be processed, and fed to an ML model that will classify, and detect any deviation from usual routines. 
+With this, the operators can not only track the wildcats better, but also prevent them from straying into busy urban areas. 
+By providing better visibility into the lifestyle of wildcats, we can have a better chance at their conservation.
 
 ## Technology implementation
 
