@@ -1,0 +1,149 @@
+
+  .background{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:white;
+    background-image:url(../../assets/tiger-background.jpg);
+    background-position: bottom;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    overflow: hidden;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  .logo{
+    height: calc(20vh);
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .ButtonSignin{
+    width: 500px;
+    height: 55px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 85px;
+    background: #B46000;
+    border-radius: 12px;
+    text-align:center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    word-wrap: break-word;
+    border: #B46000;
+  }
+
+  .ButtonSignin span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .ButtonSignin span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .ButtonSignin:hover span {
+    padding-right: 25px;
+  }
+  
+  .ButtonSignin:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .ButtonSignup{
+    width: 500px;
+    height: 55px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 25px;
+    background: white;
+    border-radius: 12px;
+    text-align:center;
+    color: black;
+    font-size: 18px;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    word-wrap: break-word;
+    border: white;
+  }
+
+  .ButtonSignup span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .ButtonSignup span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .ButtonSignup:hover span {
+    padding-right: 25px;
+  }
+  
+  .ButtonSignup:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .skipForNow{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: Gilroy;
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+    bottom: 25px;
+  }
+
+
+  @media only screen and (max-width: 850px) {
+    .logoContainer{
+      width: 100%;
+      text-align: center;
+    }
+    .logo{
+        height: calc(20vh);
+    }
+
+    .ButtonSignin{
+        width: calc(100vw - 100px);
+        height: 30px;
+        bottom: 70px;
+        font-size: 14px;
+    }
+
+    .ButtonSignup{
+        width: calc(100vw - 100px);
+        height: 30px;
+        bottom: 30px;
+        font-size: 14px;
+    }
+
+    .skipForNow{
+        bottom: 20px;
+        font-size: 15px;
+    }
+  }

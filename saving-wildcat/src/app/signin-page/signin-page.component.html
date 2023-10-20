@@ -1,0 +1,35 @@
+<div class="mainContainer">
+    <div class="bg">
+        <div class="formContainer">
+            <div class="hello">Hello</div>
+            <div class="otherText">Welcome Back ,<br/>Please enter your details.</div>
+            <form action="/login" method="POST" #login = "ngForm">
+                <div class="TextBoxContainer">
+
+                    <input class="textBox" type="email" placeholder="Email or Username" name="username" ngModel #un = "ngModel"  [(ngModel)]='username' required>
+                    <div *ngIf = "un.touched">
+                        <div class="alert" *ngIf="un.errors?.['required']"> 
+                            <strong>Email or Username</strong> is required!
+                        </div>
+                    </div>
+
+                    <input class="textBox" type="password" placeholder="Password" name="password" ngModel #pas = "ngModel"  [(ngModel)]='password' required>
+                    <div *ngIf = "pas.touched">
+                        <div class="alert" *ngIf="pas.errors?.['required']"> 
+                            <strong>Password</strong> is required!
+                        </div>
+                    </div>
+
+                    <div class="forgotpassword">Forgot Password ?</div>
+                    
+                    <button class="signin" value="Sign In" [disabled]="login.invalid" (click)="onSignIn()">Sign in</button>
+                </div>
+            </form>
+        </div>
+        <div class="imgContainer">
+            <p>
+                <img class="img" src="../../assets/logo/vector/Tiger-logo-white.svg" alt="">
+            </p>
+        </div>
+</div>
+</div>

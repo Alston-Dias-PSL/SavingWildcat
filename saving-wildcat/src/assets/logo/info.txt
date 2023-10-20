@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Gondola_SD
+font link: http://www.deffeyes.com/popups/type/gondola.html
+font author: Steve Deffeyes
+font author site: http://www.deffeyes.com/
+
+
+icon designer: Christy Presler
+icon designer link: /cnpresler
+        
+
+fontColor: {"hex":"#FFFFFF"}
+bgColor: {"gradient-0":"#b46000","gradient-1":"#090301"}
+iconColor: {"hex":"#FFFFFF"}
+
+      
